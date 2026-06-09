@@ -172,11 +172,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
-    layout:
-      position: left
-      priority: 35
-      group: toolbar
+    enabled: false
   - source: github:quartz-community/breadcrumbs
     enabled: true
     layout:
@@ -262,7 +258,9 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      exclude:
+        - reader-mode
     folder:
       exclude:
         - reader-mode
@@ -273,5 +271,9 @@ layout:
         - reader-mode
       positions:
         right: []
-    canvas: {}
-    bases: {}
+    canvas:
+      exclude:
+        - reader-mode
+    bases:
+      exclude:
+        - reader-mode
