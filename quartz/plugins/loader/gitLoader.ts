@@ -489,7 +489,14 @@ export async function installPlugin(
         }
         return { pluginDir, nativeDeps: collectNativeDeps(pluginDir) }
       } catch {
-        // If git operations fail, re-clone
+        // If no .git but dist/index.js exists, treat as committed custom dist — skip re-clone
+        const distPath = path.join(pluginDir, "dist", "index.js")
+        if (fs.existsSync(distPath)) {
+          if (options.verbose) {
+            console.log(styleText("cyan", `→`), `Plugin ${spec.name} using committed dist, skipping clone`)
+          }
+          return { pluginDir, nativeDeps: collectNativeDeps(pluginDir) }
+        }
       }
     }
   }
