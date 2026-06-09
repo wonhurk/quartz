@@ -1,3 +1,72 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// overflow-x: hidden on html creates a scroll container that breaks position:sticky.
+// 'clip' prevents horizontal overflow without creating a scroll container.
+html {
+  overflow-x: clip;
+}
+
+// Ensure the explorer fills the full available sidebar height so it doesn't
+// collapse when the page is long.
+.sidebar.left .explorer {
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+.sidebar.left .explorer-content {
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+a.internal.broken {
+  pointer-events: none;
+  cursor: default;
+  color: var(--gray);
+  text-decoration: none;
+}
+
+// Site-wide banner above the grid
+.page[data-frame="default"]::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 140px;
+  background-image: url('/static/banner.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+// Full-width knowledge graph on the landing page
+.index-graph {
+  width: 100%;
+  height: 75vh;
+  min-height: 480px;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+
+  .graph-container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.pmid-date {
+  font-size: 0.78em;
+  color: var(--gray);
+  font-style: italic;
+}
+
+// Reduce top spacing since the banner replaces the blank gap
+.page[data-frame="default"] {
+  .sidebar {
+    padding-top: 1.5rem;
+  }
+
+  .page-header {
+    margin-top: 1.5rem;
+  }
+}

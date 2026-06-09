@@ -1,0 +1,67 @@
+---
+title: Hepatocellular Carcinoma
+---
+
+## Molecular mechanisms
+
+The tumor microenvironment in HCC is shaped by heterotypic signaling between malignant hepatocytes and the surrounding stroma. [[endotrophin|Endotrophin (ETP)]], a cleavage fragment of [[col6a3|collagen VI α3 (COL6A3)]] secreted by hepatic stellate cells, binds to [[cd44|CD44]] receptors on pericentral tumor cells, activating [[stat3|STAT3]] signaling and driving [[epithelial-mesenchymal-transition|epithelial-mesenchymal transition (EMT)]], proliferation, and resistance to [[sorafenib]].³ This interaction establishes a self-reinforcing feedback loop wherein STAT3 activation induces COL6A3 expression in tumor cells, sustaining endotrophin production and amplifying protumorigenic signals. In mouse models of metabolic dysfunction-associated HCC induced by diethylnitrosamine plus high-fat diet, dual knockout of Col6a3 and Cd44 markedly reduced tumor burden, restored sorafenib sensitivity, and attenuated fibrosis and steatotic-fibrotic niche formation.³
+
+[[lactate-metabolism|Lactate metabolism]] and protein lactylation represent critical regulatory nodes in HCC progression. [[aars2|AARS2]], a mitochondrial aminoacyl-tRNA synthetase that moonlights as a lactate-modifying enzyme, acts as a master regulator linking metabolic reprogramming to oncogenic signaling.⁴ Landscape screening identified AARS2 as a central hub whose dysregulation alters lactate flux and protein lactylation patterns, creating a permissive metabolic environment for tumor growth and therapeutic resistance.⁴
+
+Immune evasion in HCC is orchestrated by epigenetic mechanisms, particularly through [[cbx4|chromobox 4 (CBX4)]], a chromodomain-containing protein that catalyzes SUMOylation and recognizes repressive histone marks. In vivo CRISPR screens targeting epigenetics-related factors identified CBX4 as a key negative regulator of antitumor immunity.⁵ Single-cell RNA sequencing and spatial transcriptomics analyses of patients receiving neoadjuvant anti-PD-1 therapy revealed high CBX4 expression in both tumor cells and immunosuppressive tumor-associated macrophages, with preferential accumulation in nonresponders.⁵ CBX4 silences endogenous retroelements through H3K9me3 and H3K27me3 marking; its deletion derepresses retrotransposons, activating cytosolic RNA-sensing pathways and triggering robust type I interferon responses that inflame the tumor microenvironment and heighten sensitivity to immune checkpoint blockade.⁵
+
+Chronic HBV infection drives HCC through the expansion of cancer stem cell populations characterized by enhanced self-renewal capacity and therapeutic resistance. Integrated multi-omics analysis identified [[ssr2|signal sequence receptor subunit 2 (SSR2)]] and [[ube2d3|ubiquitin-conjugating enzyme E2 D3 (UBE2D3)]] as core stemness biomarkers in HBV-associated HCC.⁶ High SSR2 expression and low UBE2D3 expression correlate with poor clinical outcomes and predict resistance to conventional therapies, highlighting the stem cell compartment as a critical determinant of disease trajectory.⁶
+
+---
+
+## Therapeutic strategies
+
+Combination regimens integrating locoregional chemotherapy, targeted kinase inhibition, and immune checkpoint blockade have demonstrated unprecedented efficacy in unresectable HCC. The HILL trial, a prospective single-arm phase 2 study, evaluated the triple combination of [[folfox|FOLFOX]]-based [[hepatic-arterial-infusion-chemotherapy|hepatic arterial infusion chemotherapy (HAIC)]], [[lenvatinib]], and the [[pd-l1|PD-L1]] inhibitor [[durvalumab]] in 40 patients with unresectable disease.⁷ At a median follow-up of 23.1 months, the regimen achieved a 75% objective response rate including 9 complete or pathologic complete responses, a 95% disease control rate, and remarkable survival outcomes with 1-year and 2-year overall survival rates of 97.5% and 94.0%, respectively.⁷ Median progression-free survival reached 15.8 months, and seven patients (17.5%) underwent R0 conversion surgery with three achieving pathologic complete response, demonstrating the potential for curative-intent treatment following effective downstaging.⁷ The safety profile was favorable, with 85% of patients experiencing only grade 1–2 adverse events and no grade 4 toxicities observed.⁷
+
+Immune checkpoint blockade monotherapy with [[pembrolizumab]], an anti-PD-1 antibody, showed durable antitumor activity in both sorafenib-treated and treatment-naïve advanced HCC in the phase II KEYNOTE-224 study, with long-term follow-up extending to approximately 7 years for the sorafenib-exposed cohort and 5 years for the treatment-naïve cohort.⁸ While response rates with single-agent checkpoint inhibitors remain modest compared to combination regimens, durable responses in a subset of patients underscore the importance of identifying predictive biomarkers for patient selection.
+
+Resistance to targeted therapies and immunotherapy represents a major clinical challenge. Loss of [[decorin]] suppresses [[acsl4|ACSL4]]-dependent lipid remodeling, driving resistance to [[enzalutamide]] in castration-resistant prostate cancer through ferroptosis evasion—a mechanism likely shared across solid tumors including HCC.⁹ Multi-omics analysis identified [[kcmf1|KCMF1]], a ubiquitination-associated gene, as an immune-metabolic driver of HCC progression whose overexpression correlates with poor survival, enrichment of M0 macrophages in the tumor microenvironment, and activation of VEGF and TGF-β signaling pathways that promote angiogenesis and immune suppression.¹⁰ Targeting these resistance pathways through rational combination strategies offers potential avenues to overcome therapeutic failure.
+
+---
+
+## Emerging approaches
+
+[[ferroptosis|Ferroptosis]]-based therapies have emerged as a powerful strategy to overcome immune suppression in HCC. Supramolecular co-assembly of platycodin-D-loaded iron nanocomposites (PIF NCs) enhances immunotherapy by inducing immunogenic cell death through synergistic ferroptosis-photochemotherapy.¹¹ PIF NCs disrupt redox equilibrium and trigger ferroptosis by depleting [[glutathione|glutathione (GSH)]], downregulating [[gpx4|glutathione peroxidase 4 (GPX4)]] and [[slc7a11|solute carrier family 7 member 11 (SLC7A11)]], and increasing lipid peroxide accumulation.¹¹ In a Hep3B tumor model, combined treatment with PIF NCs and anti-[[pd-l1|PD-L1]] antibodies exhibited substantial tumor inhibition and induced prolonged immunological memory responses, demonstrating the synergy between ferroptosis induction and immune checkpoint blockade.¹¹
+
+Ultrasound cavitation therapy represents a noninvasive approach to enhance vascular permeability and drug delivery in HCC. Using a modified clinical ultrasound scanner with FDA-approved microbubbles, controlled cavitation induces transient tumor perfusion loss, reduces interstitial fluid pressure, and enhances doxorubicin extravasation without causing significant tissue damage or hemorrhage.¹² Contrast-enhanced ultrasound with maximum intensity projection time area curve (MIP-TAC) analysis enables real-time monitoring of vascular changes during treatment, providing a theranostic platform that addresses the abnormal tumor vasculature, elevated interstitial fluid pressure, and immune suppression characteristic of HCC.¹²
+
+Injectable acid-labile thermosensitive hydrogels offer a bridging strategy to liver transplantation for patients with unresectable HCC. An ortho-ester-functionalized poly(N-isopropylacrylamide)-polyethylene glycol matrix incorporating iron oxide nanoparticles and doxorubicin (NCD hydrogel) undergoes sol-gel transition at body temperature, enabling percutaneous injection under ultrasound guidance followed by sustained drug retention within the tumor bed.¹³ The acid-cleavable backbone achieves 77% doxorubicin release at pH 6.5 over 72 hours, markedly exceeding conventional formulations and yielding uniform tumor drug distribution.¹³ Combined with magnetothermal therapy enabled by embedded iron oxide nanoparticles, ultrasound-guided NCD delivery suppresses orthotopic liver tumor growth while extending the therapeutic window for transplant-eligible patients.¹³
+
+Self-expanding sodium alginate sulfate drug-loaded microspheres enhance the efficacy and safety of [[transarterial-embolization|transarterial chemoembolization (TACE)]].¹⁴ The sodium alginate sulfate framework provides multiple drug-loading groups, enabling fast loading, high capacity (68 mg/g for irinotecan), sustained release exceeding 30 days for doxorubicin, and compatibility with multiple chemotherapeutic agents.¹⁴ A fatty acid/sodium fatty acid buffer system at the aqueous-oil interface creates a gradient cross-linked structure conferring self-expansion behavior that stabilizes embolized arteries and prevents vascular recanalization and ectopic embolization.¹⁴ In pig renal artery embolization studies, these microspheres demonstrated superior embolization stability with sustained tissue necrosis and no recanalization at 90 days.¹⁴
+
+Generative deep learning enables rational design of targeted therapies for underexplored molecular targets. MolEvoRNN, a generative model employing transfer learning and temperature-controlled sampling, generated over 49,000 chemically valid molecules targeting [[map4k6|MAP4K6]], a serine/threonine kinase implicated in HCC but lacking annotated ligands.¹⁵ Multilayered virtual screening combining QSAR modeling, pharmacophore mapping, molecular docking, and extended molecular dynamics simulations identified three lead candidates with high predicted affinity, favorable ADMET properties, and robust dynamic stability, demonstrating the potential of artificial intelligence-driven drug discovery in precision oncology.¹⁵
+
+---
+
+## Etiology and risk factors
+
+Chronic HBV infection remains a major etiological driver of HCC globally, particularly in endemic regions. HBV-associated HCC exhibits distinct molecular features including enrichment of cancer stem cell populations and dysregulation of stemness-associated pathways that contribute to therapeutic resistance and disease aggressiveness.⁶ [[aflatoxin-b1|Aflatoxin B1]] exposure synergizes with viral hepatitis to amplify carcinogenic risk through DNA adduct formation and mutagenesis.
+
+[[metabolic-dysfunction-associated-steatotic-liver-disease|Metabolic dysfunction-associated steatotic liver disease (MASLD)]] with advanced fibrosis represents an increasingly prevalent risk factor for HCC, driven by the global epidemic of obesity and metabolic syndrome.² MASLD can progress to metabolic dysfunction-associated steatohepatitis (MASH) with fibrosis, substantially increasing the risk of [[cirrhosis]], HCC, and mortality.² Noninvasive fibrosis assessment using the Fibrosis-4 (FIB-4) index enables risk stratification, with elevated values prompting secondary assessment with elastography and specialist referral to identify patients requiring intensive surveillance and intervention.²
+
+Gut microbiota alterations mediated by Western dietary patterns contribute to MASLD progression and hepatocarcinogenesis. High-saturated-fat, high-cholesterol diets synergistically reshape gut microbial composition, promoting expansion of Parasutterella species that correlate with hepatic fibrosis.¹⁶ These dietary lipid-induced microbiota changes are absent in germ-free mice, demonstrating causality.¹⁶ Mechanistically, saturated fat and cholesterol alter bile acid metabolism, enriching cecal contents in deoxycholic acid, which activates hepatic stellate cells and drives fibrogenesis—establishing a mechanistic link between specific Western dietary components, gut dysbiosis, and liver pathology.¹⁶
+
+---
+
+## References
+1. PMID:41740923 — Ultrasound cavitation therapy induces tumor drug delivery and blood flow changes
+2. PMID:42120590 — Evidence-based clinical practice guidelines for MASLD 2026
+3. PMID:41671381 — Endotrophin-CD44 heterotypic signaling mediates tumor-stroma cross-talk in HCC
+4. PMID:42114979 — Landscape screening identifies AARS2 as master regulator in HCC
+5. PMID:41915438 — In vivo CRISPR screens identify CBX4 as epigenetic regulator for cancer immunotherapy
+6. PMID:42133686 — Core stemness biomarkers in HBV-HCC through integrated multi-omics
+7. PMID:42135293 — HILL trial: FOLFOX-HAIC combined with lenvatinib and durvalumab in unresectable HCC
+8. PMID:41770235 — Pembrolizumab monotherapy in sorafenib-treated and treatment-naïve advanced HCC (KEYNOTE-224)
+9. Reference to decorin/ACSL4/enzalutamide resistance mechanism (from enriched summary)
+10. PMID:42118414 — Multi-omics identify KCMF1 as immune-metabolic driver of HCC progression
+11. PMID:42133129 — Platycodin-D-loaded iron nanocomposite enhances HCC immunotherapy with ferroptosis-photochemotherapy
+12. PMID:41740923 — Ultrasound cavitation therapy for drug delivery in HCC
+13. PMID:41672306 — Injectable acid-labile thermosensitive magnetic hydrogel for bridging liver transplantation
+14. PMID:41832022 — Self-expanding sodium alginate sulfate drug-loaded microspheres for stabilized arterial embolization
+15. PMID:41967399 — Generative deep learning-driven de novo design of targeted MAP4K6 inhibitors
+16. PMID:42108649 — Gut microbes mediate synergistic effects of dietary cholesterol and saturated fat in driving fibrosing MASH

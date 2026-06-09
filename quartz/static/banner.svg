@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#060b15"/>
+      <stop offset="100%" stop-color="#0c1e33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0080cc"/>
+    </linearGradient>
+    <linearGradient id="fadeLG" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="black"/>
+      <stop offset="100%" stop-color="white"/>
+    </linearGradient>
+    <mask id="netMask">
+      <rect x="610" y="0" width="130" height="200" fill="url(#fadeLG)"/>
+      <rect x="740" y="0" width="460" height="200" fill="white"/>
+    </mask>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="titleGlow" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.6" fill="white" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="url(#dots)"/>
+
+  <!-- Network (right side, fades in from x=610) -->
+  <g mask="url(#netMask)">
+    <line x1="785" y1="82" x2="952" y2="58" stroke="#4a9edd" stroke-width="0.9" opacity="0.42"/>
+    <line x1="785" y1="82" x2="872" y2="132" stroke="#4a9edd" stroke-width="0.9" opacity="0.42"/>
+    <line x1="952" y1="58" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.42"/>
+    <line x1="872" y1="132" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.42"/>
+    <line x1="698" y1="48" x2="785" y2="82" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="725" y1="158" x2="785" y2="82" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="822" y1="25" x2="952" y2="58" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="848" y1="178" x2="872" y2="132" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="902" y1="90" x2="952" y2="58" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="902" y1="90" x2="872" y2="132" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="978" y1="148" x2="872" y2="132" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="978" y1="148" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="1022" y1="35" x2="952" y2="58" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="1022" y1="35" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="1052" y1="172" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="1132" y1="65" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="1150" y1="145" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="675" y1="102" x2="785" y2="82" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="762" y1="175" x2="872" y2="132" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="920" y1="16" x2="952" y2="58" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="1102" y1="25" x2="1082" y2="102" stroke="#4a9edd" stroke-width="0.9" opacity="0.28"/>
+    <line x1="698" y1="48" x2="822" y2="25" stroke="#4a9edd" stroke-width="0.9" opacity="0.2"/>
+    <line x1="902" y1="90" x2="978" y2="148" stroke="#4a9edd" stroke-width="0.9" opacity="0.2"/>
+    <line x1="1132" y1="65" x2="1150" y2="145" stroke="#4a9edd" stroke-width="0.9" opacity="0.2"/>
+    <line x1="1022" y1="35" x2="1102" y2="25" stroke="#4a9edd" stroke-width="0.9" opacity="0.2"/>
+    <line x1="725" y1="158" x2="762" y2="175" stroke="#4a9edd" stroke-width="0.9" opacity="0.2"/>
+    <circle cx="785" cy="82" r="22" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12"/>
+    <circle cx="785" cy="82" r="15" fill="none" stroke="#4a9edd" stroke-width="1" opacity="0.22"/>
+    <circle cx="785" cy="82" r="9" fill="#4a9edd" opacity="0.95" filter="url(#glow)"/>
+    <circle cx="952" cy="58" r="22" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12"/>
+    <circle cx="952" cy="58" r="15" fill="none" stroke="#4a9edd" stroke-width="1" opacity="0.22"/>
+    <circle cx="952" cy="58" r="9" fill="#4a9edd" opacity="0.95" filter="url(#glow)"/>
+    <circle cx="872" cy="132" r="22" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12"/>
+    <circle cx="872" cy="132" r="15" fill="none" stroke="#4a9edd" stroke-width="1" opacity="0.22"/>
+    <circle cx="872" cy="132" r="9" fill="#4a9edd" opacity="0.95" filter="url(#glow)"/>
+    <circle cx="1082" cy="102" r="22" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12"/>
+    <circle cx="1082" cy="102" r="15" fill="none" stroke="#4a9edd" stroke-width="1" opacity="0.22"/>
+    <circle cx="1082" cy="102" r="9" fill="#4a9edd" opacity="0.95" filter="url(#glow)"/>
+    <circle cx="698" cy="48" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="725" cy="158" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="822" cy="25" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="848" cy="178" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="902" cy="90" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="978" cy="148" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="1022" cy="35" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="1052" cy="172" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="1132" cy="65" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="1150" cy="145" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="675" cy="102" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="762" cy="175" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="920" cy="16" r="4.5" fill="#4a9edd" opacity="0.70"/>
+    <circle cx="1102" cy="25" r="4.5" fill="#4a9edd" opacity="0.70"/>
+  </g>
+
+  <!-- Accent bar (left) -->
+  <circle cx="41" cy="20" r="3" fill="url(#accent)"/>
+  <rect x="38" y="20" width="6" height="160" fill="url(#accent)"/>
+  <circle cx="41" cy="180" r="3" fill="url(#accent)"/>
+  <line x1="44" y1="50"  x2="52" y2="50"  stroke="#00d4ff" stroke-width="1"   opacity="0.55"/>
+  <line x1="44" y1="80"  x2="52" y2="80"  stroke="#00d4ff" stroke-width="1"   opacity="0.55"/>
+  <line x1="44" y1="100" x2="57" y2="100" stroke="#00d4ff" stroke-width="1.5" opacity="0.75"/>
+  <line x1="44" y1="120" x2="52" y2="120" stroke="#00d4ff" stroke-width="1"   opacity="0.55"/>
+  <line x1="44" y1="150" x2="52" y2="150" stroke="#00d4ff" stroke-width="1"   opacity="0.55"/>
+
+  <!-- Title -->
+  <text x="62" y="103" font-family="'Helvetica Neue', Arial, sans-serif" font-size="58" dominant-baseline="hanging" filter="url(#titleGlow)">
+    <tspan font-weight="300" fill="#4a9edd">LLM</tspan><tspan font-weight="800" fill="white">wiki</tspan><tspan font-weight="300" fill="#4a9edd">.bio</tspan>
+  </text>
+
+  <!-- Tagline: upper right -->
+  <text
+    x="1188" y="14"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="10"
+    font-weight="400"
+    fill="white"
+    fill-opacity="0.36"
+    letter-spacing="4.5"
+    text-anchor="end"
+    dominant-baseline="hanging"
+  >BIOMEDICAL KNOWLEDGE GRAPH</text>
+
+  <!-- Border lines -->
+  <line x1="0" y1="0.5"     x2="1200" y2="0.5"     stroke="white" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="0" y1="199.5" x2="1200" y2="199.5" stroke="white" stroke-opacity="0.12" stroke-width="1"/>
+</svg>

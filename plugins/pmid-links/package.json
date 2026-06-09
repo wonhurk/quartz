@@ -1,0 +1,21 @@
+{
+  "name": "@local/pmid-links",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "quartz": {
+    "name": "pmid-links",
+    "displayName": "PMID Links",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 65,
+    "defaultEnabled": true
+  }
+}
