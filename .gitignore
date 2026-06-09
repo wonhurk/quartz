@@ -9,5 +9,15 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-.quartz/
+.quartz/*
+!.quartz/plugins/
+.quartz/plugins/*
+!.quartz/plugins/graph/
+!.quartz/plugins/explorer/
+.quartz/plugins/graph/*
+!.quartz/plugins/graph/dist/
+!.quartz/plugins/graph/package.json
+.quartz/plugins/explorer/*
+!.quartz/plugins/explorer/dist/
+!.quartz/plugins/explorer/package.json
 quartz/cli/tui/dist/
